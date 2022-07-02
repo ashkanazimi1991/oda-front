@@ -1,0 +1,133 @@
+// import { FaFileExport } from "react-icons/fa";
+
+
+
+
+export const homeObjectTwo = {
+    bg:"#fff",
+    id :'services',
+    resDisplay:'none',
+    display3D:"none",
+    imgDisplay:'flex',
+    videoDisplay:'none',
+    // video:"videos/hotel.mp4",
+    lightBg: false,
+    lightText:false,
+    lightTextDesc: true,
+    topLine: 'ODA',
+    headLine:'Engineering Technical Architecture',
+    description: 'From idea to reality with the magic of science ',
+    buttonLable: ' ',
+    imgStart:true,
+    buttonLink: "/",
+    img:'./images/logo.png',
+    alt:'اودا',
+    dark:true,
+    primary:true,
+    darkText:true,
+    
+};
+
+
+export const homeObjectThree = {
+    id :'project',
+    bg:"#fff",
+    resDisplay:'none',
+    display3D:"flex",
+    imgDisplay:'none',
+    videoDisplay:'none',
+    // video:"videos/5.mp4",
+    lightBg: false,
+    lightText:false,
+    lightTextDesc: false,
+    topLine: 'SEE IT',
+    headLine:'3D present Veiw',
+    description: 'With High tech 3D present , SEE the idea before born ',
+    buttonLable: '',
+    buttonLink:"/",
+    imgStart:true,
+    img:'./images/logo.png',
+    alt:'Loading',
+    dark:true,
+    primary:true,
+    darkText:true,
+    
+};
+
+// export const homeObjectFour = {
+//     id :'ai',
+//     bg:"#000",
+//     resDisplay:'none',
+//     videoDisplay:'none',
+//     imgDisplay:'flex',
+//     // video:"videos/earth2.mp4",
+//     lightBg: false,
+//     lightText:false,
+//     lightTextDesc: false,
+//     headLine:'راهکارهای هوش مصنوعی',
+//     topLine: 'Artificial Intelligence',
+//     description: ' هوش مصنوعی  نسبت به هر کسب  کار ,  کارکرد متفاوتی دارد , ترکیب هوش مصنوعی با پلتفرم های مدیریت آنلاین  باعث دقت بیشتر , هزینه کمتر  و راندمان بیشتر در کسب و کار می شود.  ',
+//     buttonLable: 'اطلاعات بیشتر',
+//     buttonLink:"/webservice/machinelearning",
+//     img: './images/ai05.gif',
+//     imgStart:true,
+//     alt: 'مدیریت آنلاین',
+//     dark:true,
+//     primary:true,
+//     darkText:false,
+//     display3D:"none",
+// };
+
+
+// export const homeObjectFive = {
+//     id :'auto',
+//     bg:"#000",
+//     resDisplay:'none',
+//     display3D:"flex",
+//     imgDisplay:'none',
+//     videoDisplay:'none',
+//     // video:"videos/fin.mp4",
+//     lightBg: true,
+//     lightText:false,
+//     lightTextDesc: false,
+//     topLine: 'Robotic Automation',
+//     headLine:'اتوماسیون های خود ران و کنترلی',
+//     description: '  طراحی و اجرا سیستم منعطف رباتیک برای کسب و کارهای پرورشی و صنعتی با ویژگی های چون team work automation, self drive transport,customise & scaleable ',
+//     buttonLable: 'اطلاعات بیشتر',
+//     buttonLink:"./webservice/roboticplatform",
+//     imgStart: true,
+//     // img: './images/roboarm.png',
+//     alt:'رباتیک',
+//     dark: true,
+//     primary: true,
+//     darkText: false,
+//     path:"/images/robot",
+//     fname:"m{index}.jpg"
+// };
+
+// export const homeObjectsix = {
+//     id :'crypto',
+//     bg:"#142028",
+//     resDisplay:'none',
+//     display3D:"none",
+//     imgDisplay:'flex',
+//     videoDisplay:'none',
+//     // video:"videos/fin.mp4",
+//     lightBg: true,
+//     lightText:false,
+//     lightTextDesc: false,
+//     topLine: 'cryptocurrency',
+//     headLine:'رمز ارز های دیجیتال',
+//     description: '    رمز ارزهای دیجیتال راهی مطمئن , سریع و ارزان  برای انتقال وجه است از این رو مجموعه مدیریت آنلاین نیز آماده ارائه خدمات بلاک چینی و توسع بلاک چین و بسترهای آموزشی است  ',
+//     buttonLable: 'اطلاعات بیشتر',
+//     // buttonLink: "/crypto/exchange",
+//     buttonLink: "/login",
+//     imgStart: true,
+//     img: './images/s30.png',
+//     alt:'کریپتو',
+//     dark: true,
+//     primary: true,
+//     darkText: false,
+//     // path:"/images/robot",
+//     // fname:"m{index}.jpg"
+// };

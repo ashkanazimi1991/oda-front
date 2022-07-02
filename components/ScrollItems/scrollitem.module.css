@@ -1,0 +1,151 @@
+.container {
+    width: 100%;
+    display: grid;
+    height: 100%;
+/* padding-top: 50px; */
+    /* margin-top: 5%; */
+    padding-left: 15%;
+    grid-template-columns: repeat(auto-fit, minmax(36rem, 1fr));
+    gap: 10px 50px;
+    /* padding-left:20%; */
+    justify-items: center;
+    justify-content: center;
+    z-index: 10;
+   
+}
+
+@media screen and (max-width:770px) {
+    .container{
+        
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+        gap: 0px 0px;
+        /* background-color: aqua; */
+        padding-left: 0%;
+        
+    }
+}
+
+
+@media screen and (max-width:490px) {
+    .container{
+        
+        grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+        gap: 0px 0px;
+        padding-left: 0%;
+       
+    }
+}
+
+
+
+.imageContainer {
+    /* margin-right: 100px; */
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    /* margin: 10px; */
+    width: 36rem;
+    height: 25rem;
+    overflow: hidden;
+    /* border-radius: 15px; */
+    cursor: pointer;
+    position: relative;
+}
+
+@media screen and (max-width:770px) {
+    .imageContainer{
+        width: 29rem;
+        height: 23rem;
+        
+    }
+}
+
+
+
+
+
+
+
+.image {
+    width: 100%;
+    height: auto;
+    transition: all 4s;
+}
+
+.image:hover {
+    transform: translateY(var(--scrollNumber));
+    /* margin: 10px; */
+    opacity: .4;
+    /* padding: 10px; */
+}
+
+.hover {
+    position: absolute;
+    height: inherit;
+    top: 0;
+    left: 0;
+    width: 0;
+    background: linear-gradient(to right , #020024, #045256, #142028);
+    z-index: -10;
+    transition: all 4s;
+}
+
+.hoverTitle {
+    position: absolute;
+    top: 30%;
+    left: -50%;
+    transform: translate(-30%, -50%);
+    z-index: -1;
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1.5s;
+}
+
+
+.more{
+    position: absolute;
+    bottom: 30px;
+    right: -50%;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    transition: all 1.5s;
+    background: inherit;
+    border: none;
+    opacity: 0;
+    z-index: 100;
+    visibility: hidden;
+    transition: all 1.5s;
+
+}
+
+.image:hover~.hover {
+    width: 100%;
+}
+
+.more:hover~.hover {
+    width: 100%;
+    width: 100%;
+}
+
+
+
+
+.image:hover~.hoverTitle {
+    opacity: 1;
+    visibility: visible;
+    left: 40%;
+}
+
+.image:hover~.more {
+    opacity: 1;
+    visibility: visible;
+    right: 40px;
+}
+
+/* @media screen and (max-width:768px) {
+    .container {
+        grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)) !important;
+    }
+} */
