@@ -36,8 +36,8 @@ const InfoSection = ({lightBg, id, topLine, headLine, description, img,display3D
                        <Column1>
                             <TextWrapper>
                                 <TopLine>{topLine}</TopLine>
-                                <Heading  lightText={lightText}>{headLine} </Heading>
-                                <Subtitle darkText={darkText}>{description}</Subtitle>
+                                {/* <Heading  lightText={lightText}>{headLine} ODA 3D Present View</Heading> */}
+                                {/* <Subtitle darkText={darkText}>{description}</Subtitle> */}
                                 <Link href={`${buttonLink}`}>
                                 <BtnWrap>
                                     <Button 

@@ -4,7 +4,7 @@
 
 
 export const homeObjectTwo = {
-    bg:"#fff",
+    bg:"#000",
     id :'services',
     resDisplay:'none',
     display3D:"none",
@@ -31,7 +31,7 @@ export const homeObjectTwo = {
 
 export const homeObjectThree = {
     id :'project',
-    bg:"#fff",
+    bg:"#000",
     resDisplay:'none',
     display3D:"flex",
     imgDisplay:'none',
@@ -40,12 +40,12 @@ export const homeObjectThree = {
     lightBg: false,
     lightText:false,
     lightTextDesc: false,
-    topLine: 'SEE IT',
-    headLine:'3D present Veiw',
-    description: 'With High tech 3D present , SEE the idea before born ',
+    topLine: 'SEE 3D',
+    headLine:'',
+    description: ' ',
     buttonLable: '',
     buttonLink:"/",
-    imgStart:true,
+    imgStart:false,
     img:'./images/logo.png',
     alt:'Loading',
     dark:true,

@@ -1,13 +1,15 @@
 import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
-    direction: rtl;
+    direction: ltr;
     z-index: 1;
     font-family: iransans;
     max-width: 100%;
+    margin-left: 20%;
     /* padding-left: 25%; */
     @media screen and (max-width: 768px) {
-        padding:2px;
+        /* padding:2px; */
+        margin-left: 0%;
         
     }
 `;
@@ -42,7 +44,7 @@ export const InfoRow =styled.div`
     padding: 10px;
     grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
 
-    @media screen and (max-width: 780px) {
+    @media screen and (max-width: 1580px) {
         grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
         /* margin-right: 15px; */
     }
@@ -52,7 +54,7 @@ export const InfoRow =styled.div`
 export const Column1 = styled.div`
     grid-area: col1;
     max-width: 100%;
-    padding-top: 5px;
+
     
 `;
 
@@ -64,7 +66,6 @@ export const Column2 = styled.div`
 
 export const TextWrapper = styled.div`
     max-width: max-content;
-    padding-top: 0;
     text-align: center;
     /* white-space: nowrap; */
     padding-bottom: 60px;
@@ -75,7 +76,7 @@ export const TopLine = styled.p`
     color:  #fff ;
     /* white-space: nowrap; */
     text-align: Left;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     font-size:150px;
     text-shadow: 2.1px 1px 9px rgba(0, 0, 0, 0.4);
     font-weight: bolder;
@@ -87,7 +88,7 @@ export const TopLine = styled.p`
         font-size: 50px;
     } 
     @media screen and (max-width: 480px) {
-        font-size: 100px;
+        font-size: 50px;
     }
 `;
 
@@ -146,18 +147,18 @@ export const BtnWrap = styled.div`
 
 
 export const ImgWrap = styled.div`  
-    max-width: 95%;
+    max-width: 100%;
     height: 100%;
     width: 100%;
     @media screen and (max-width: 768px) {
-        margin-right: 0px;
+    
     }
 
 `;
 
 export const Img=styled.img`
-    width: 98%;
-    border-radius: 10px;
+    width: 100%;
+    /* border-radius: 10px; */
     transition: all 0.6s ease-out;
     filter: drop-shadow(-10px 10px 10px #000);
 

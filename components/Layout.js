@@ -1,10 +1,13 @@
 import Sidebar from '../components/Sidebar'
 import Footer from '../components/Footer'
+import Header from '../components/Header/Header'
+
 const Layout = ({ children}) => {
     return (
         <div className="contant">
-            <Sidebar/>
             {children}
+            <Header/>
+            <Sidebar/>
             <Footer/>
         </div>
     )

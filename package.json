@@ -16,6 +16,7 @@
     "react-hammerjs": "^1.0.1",
     "react-icons": "^4.4.0",
     "react-scroll": "^1.8.7",
+    "react-slideshow-image": "^3.7.5",
     "styled-components": "^5.3.5",
     "tailwindcss-classnames": "^3.0.5"
   },

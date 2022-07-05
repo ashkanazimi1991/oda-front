@@ -1,9 +1,10 @@
 import React from 'react';
+import ScrollItem2 from '../components/scrollItem2/ScrollItem2'
 
 const Projects = () => {
     return (
         <div>
-            cccc
+            <ScrollItem2/>
         </div>
     );
 }

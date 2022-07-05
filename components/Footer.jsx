@@ -4,146 +4,13 @@ import Link from "next/link"
 const Footer = () => {
     return (
         <div>
-<footer className="bg-white">
+<footer className="bg-black">
     <div className="max-w-screen-xl  ml-0 md:ml-80 lg:ml-96 lg:pl-16 px-4   mx-auto sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 gap-8 pt-16  border-t border-gray-100 md:grid-cols-4 lg:grid-cols-6" >
-            <div className="text-center sm:text-left">
-                <p className="text-lg font-medium text-gray-900">Services</p>
-
-                <nav className="mt-8">
-                <ul className="space-y-4 text-sm">
-                    <li>
-                        <Link href='/'>
-                            <a  className="text-gray-700 transition hover:text-gray-700/75">
-                                                Example
-                            </a>
-                        </Link>
-                    </li>
-
-                    <li>
-                    <Link href='/'>
-                            <a  className="text-gray-700 transition hover:text-gray-700/75">
-                                                Example
-                            </a>
-                        </Link>
-                    </li>
-
-                    <li>
-                    <Link href='/'>
-                            <a  className="text-gray-700 transition hover:text-gray-700/75">
-                                                Example
-                            </a>
-                        </Link>
-                    </li>
-
-                    <li>
-                    <Link href='/'>
-                            <a  className="text-gray-700 transition hover:text-gray-700/75">
-                                                Example
-                            </a>
-                    </Link>
-                    </li>
-                </ul>
-                </nav>
-            </div>
-
-            <div className="text-center sm:text-left">
-                <p className="text-lg font-medium text-gray-900">Resources</p>
-
-                <nav className="mt-8">
-                <ul className="space-y-4 text-sm">
-                    <li>
-                        
-                    <Link href='/'>
-                        <a className="text-gray-700 transition hover:text-gray-700/75">
-                            Example
-                        </a>
-                    </Link>
-                    </li>
-
-                    <li>
-                        <Link href='/'>
-                            <a className="text-gray-700 transition hover:text-gray-700/75">
-                                Example
-                            </a>
-                        </Link>
-                    </li>
-
-                    <li>
-                        <Link href='/'>
-                            <a className="text-gray-700 transition hover:text-gray-700/75">
-                                Example
-                            </a>
-                        </Link>
-                    </li>
-
-                    <li>
-                    <Link href='/'>
-                        <a className="text-gray-700 transition hover:text-gray-700/75">
-                            Example
-                        </a>
-                    </Link>
-                    </li>
-                
-                </ul>
-                </nav>
-            </div>
-
-            <div className="text-center sm:text-left">
-                <p className="text-lg font-medium text-gray-900">Help </p>
-
-                <nav className="mt-8">
-                <ul className="space-y-4 text-sm">
-                    <li>
-                        <Link href='/'>
-                            <a className="text-gray-700 transition hover:text-gray-700/75">
-                                Example
-                            </a>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href='/'>
-                            <a className="text-gray-700 transition hover:text-gray-700/75">
-                                Example
-                            </a>
-                        </Link>
-                    </li>
-
-                    <li>
-                        <Link href='/'>
-                            <a className="text-gray-700 transition hover:text-gray-700/75">
-                                Example
-                            </a>
-                        </Link>
-                    </li>
-
-                    <li>
-                        <Link href='/'>
-
-                            <a  className="flex group justify-center gap-1.5 sm:justify-start"   >
-                                <span
-                                className="text-gray-700 transition group-hover:text-gray-700/75"
-                                >
-                                Live Chat
-                                </span>
-
-                                <span className="relative flex w-2 h-2 -mr-2">
-                                <span
-                                    className="absolute inline-flex w-full h-full bg-teal-400 rounded-full opacity-75 animate-ping"
-                                ></span>
-                                <span
-                                    className="relative inline-flex w-2 h-2 bg-teal-500 rounded-full"
-                                ></span>
-                                </span>
-                            </a>
-                        </Link>
-                    </li>
-                </ul>
-                </nav>
-            </div>
+        <div className="grid grid-cols-1 gap-8 pt-16   md:grid-cols-4 lg:grid-cols-6" >
+        
 
             <div className="text-center sm:text-left md:col-span-4 lg:col-span-2">
-                <p className="text-lg font-medium text-gray-900">Stay in Touch</p>
+                {/* <p className="text-lg font-medium text-gray-900">Stay in Touch</p> */}
 
                 <div className="max-w-md mx-auto mt-8 sm:ml-0">
                
@@ -161,7 +28,7 @@ const Footer = () => {
                     />
 
                     <button
-                        className="block px-8 py-3 font-medium text-white transition bg-[#60724b] rounded-lg hover:bg-indigo-600"
+                        className="block px-8 py-3 font-bold text-black bold transition bg-[#ffffff] rounded-lg hover:bg-indigo-600"
                         type="submit"
                     >
                         Subscribe
@@ -176,7 +43,7 @@ const Footer = () => {
             className="pt-6 mt-16 border-t border-gray-100 sm:justify-between sm:items-center sm:flex"
             >
             <p className="text-sm text-center text-gray-500 sm:text-left">
-                Copyright &copy; 2022. All rights reserved for ODA - ONLINE CEO.
+                Copyright &copy; 2022. All rights reserved for ODA 
             </p>
 
             <ul className="flex justify-center gap-6 mt-4 pb-20 sm:mt-0 sm:justify-start">
