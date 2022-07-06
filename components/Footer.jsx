@@ -6,7 +6,7 @@ const Footer = () => {
         <div>
 <footer className="bg-black">
     <div className="max-w-screen-xl  ml-0 md:ml-80 lg:ml-96 lg:pl-16 px-4   mx-auto sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 gap-8 pt-16   md:grid-cols-4 lg:grid-cols-6" >
+        <div className="grid grid-cols-1 gap-8 pt-16    md:grid-cols-4 lg:grid-cols-6" >
         
 
             <div className="text-center sm:text-left md:col-span-4 lg:col-span-2">

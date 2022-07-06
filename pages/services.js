@@ -6,7 +6,7 @@ const Services = () => {
            <section className="text-white bg-[#000] md:pl-80 pt-10 l-18">
             <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
                 <div className="max-w-lg mx-auto text-center">
-                <h2 className="text-3xl font-bold sm:text-4xl">Kickstart your marketing</h2>
+                <h2 className="text-3xl font-bold sm:text-4xl"> ODA Featuers</h2>
 
                 <p className="mt-4 text-gray-300">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur
@@ -39,7 +39,7 @@ const Services = () => {
                         />
                         </svg>
 
-                        <h3 className="mt-4 text-xl font-bold text-white">Digital campaigns</h3>
+                        <h3 className="mt-4 text-xl font-bold text-white">our service</h3>
 
                         <p className="mt-1 text-sm text-gray-300">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
@@ -70,7 +70,7 @@ const Services = () => {
                         />
                         </svg>
 
-                        <h3 className="mt-4 text-xl font-bold text-white">Digital campaigns</h3>
+                        <h3 className="mt-4 text-xl font-bold text-white">our service</h3>
 
                         <p className="mt-1 text-sm text-gray-300">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
@@ -100,7 +100,7 @@ const Services = () => {
                         />
                         </svg>
 
-                        <h3 className="mt-4 text-xl font-bold text-white">Digital campaigns</h3>
+                        <h3 className="mt-4 text-xl font-bold text-white">our service</h3>
 
                         <p className="mt-1 text-sm text-gray-300">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
@@ -131,7 +131,7 @@ const Services = () => {
                         />
                         </svg>
 
-                        <h3 className="mt-4 text-xl font-bold text-white">Digital campaigns</h3>
+                        <h3 className="mt-4 text-xl font-bold text-white">our service</h3>
 
                         <p className="mt-1 text-sm text-gray-300">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
@@ -162,7 +162,7 @@ const Services = () => {
                         />
                         </svg>
 
-                        <h3 className="mt-4 text-xl font-bold text-white">Digital campaigns</h3>
+                        <h3 className="mt-4 text-xl font-bold text-white">our service</h3>
 
                         <p className="mt-1 text-sm text-gray-300">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
@@ -193,7 +193,7 @@ const Services = () => {
                         />
                         </svg>
 
-                        <h3 className="mt-4 text-xl font-bold text-white">Digital campaigns</h3>
+                        <h3 className="mt-4 text-xl font-bold text-white">our service</h3>
 
                         <p className="mt-1 text-sm text-gray-300">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo

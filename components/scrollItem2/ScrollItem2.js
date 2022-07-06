@@ -4,10 +4,10 @@ import Link from "next/link"
 import styles from "./scrollitem.module.css";
 
 const ScrollItem2 = () => {
-  const mouseHandler = (event) => {
-    const scroll = event.target.scrollHeight - 370;
-    event.target.style = `--scrollNumber: -${scroll}px`;
-  };
+  // const mouseHandler = (event) => {
+  //   const scroll = event.target.scrollHeight - 370;
+  //   event.target.style = `--scrollNumber: -${scroll}px`;
+  // };
   return (
 
 
@@ -16,93 +16,115 @@ const ScrollItem2 = () => {
 
     <section  className={styles.imageContainer}>
       <img
-        onMouseEnter={mouseHandler}
+        // onMouseEnter={mouseHandler}
         className={styles.image}
-        src="/images/555.jpeg"
+        src="/images/a1.jpg"
         alt="img"
       />
-      <div className={styles.hover}></div>
-      <h1 className={styles.hoverTitle}> </h1>
-  <Link href='/'>
-      <button className={styles.more}>Details</button>
+      {/* <div className={styles.hover}></div> */}
+      {/* <h1 className={styles.hoverTitle}> </h1> */}
+      <Link href='/'>
+          <button className={styles.more}>DETAILS</button>
+      </Link>
+    </section>
+
+    <section  className={styles.imageContainer}>
+      <img
+        // onMouseEnter={mouseHandler}
+        className={styles.image}
+        src="/images/a2.jpg"
+        alt="img"
+      />
+      {/* <div className={styles.hover}></div> */}
+      {/* <h1 className={styles.hoverTitle}> DETAILS</h1> */}
+  <Link href=''>
+      <button className={styles.more}>DETAILS</button>
   </Link>
     </section>
 
     <section  className={styles.imageContainer}>
       <img
-        onMouseEnter={mouseHandler}
+        // onMouseEnter={mouseHandler}
         className={styles.image}
-        src="/images/558.jpeg"
+        src="/images/a3.jpg"
         alt="img"
       />
-      <div className={styles.hover}></div>
-      <h1 className={styles.hoverTitle}> </h1>
-  <Link href=''>
-      <button className={styles.more}>Details</button>
-  </Link>
+      {/* <div className={styles.hover}></div> */}
+      {/* <h1 className={styles.hoverTitle}> </h1> */}
+      <Link href=''>
+          <button className={styles.more}>DETAILS</button>
+      </Link>
     </section>
 
     <section  className={styles.imageContainer}>
       <img
-        onMouseEnter={mouseHandler}
+        // onMouseEnter={mouseHandler}
         className={styles.image}
-        src="/images/557.jpg"
+        src="/images/a4.jpg"
         alt="img"
       />
-      <div className={styles.hover}></div>
-      <h1 className={styles.hoverTitle}> </h1>
-  <Link href=''>
-      <button className={styles.more}>Details</button>
-  </Link>
+      {/* <div className={styles.hover}></div> */}
+      {/* <h1 className={styles.hoverTitle}> </h1> */}
+      <Link href=''>
+          <button className={styles.more}>DETAILS</button>
+      </Link>
     </section>
 
     <section  className={styles.imageContainer}>
       <img
-        onMouseEnter={mouseHandler}
+        // onMouseEnter={mouseHandler}
         className={styles.image}
-        src="/images/559.jpeg"
+        src="/images/a6.jpg"
         alt="img"
       />
-      <div className={styles.hover}></div>
-      <h1 className={styles.hoverTitle}> </h1>
-  <Link href=''>
-      <button className={styles.more}>Details</button>
-  </Link>
+      {/* <div className={styles.hover}></div> */}
+      {/* <h1 className={styles.hoverTitle}> </h1> */}
+      <Link href=''>
+          <button className={styles.more}>DETAILS</button>
+      </Link>
     </section>
 
     <section  className={styles.imageContainer}>
       <img
-        onMouseEnter={mouseHandler}
+        // onMouseEnter={mouseHandler}
         className={styles.image}
-        src="/images/6666.jpeg"
+        src="/images/a7.jpg"
         alt="img"
       />
-      <div className={styles.hover}></div>
-      <h1 className={styles.hoverTitle}> </h1>
-  <Link href=''>
-      <button className={styles.more}>Details</button>
-  </Link>
+      {/* <div className={styles.hover}></div> */}
+      {/* <h1 className={styles.hoverTitle}> </h1> */}
+      <Link href=''>
+          <button className={styles.more}>DETAILS</button>
+      </Link>
     </section>
 
     <section  className={styles.imageContainer}>
       <img
-        onMouseEnter={mouseHandler}
+        // onMouseEnter={mouseHandler}
         className={styles.image}
-        src="/images/1.jpeg"
+        src="/images/a9.jpg"
         alt="img"
       />
-      <div className={styles.hover}></div>
-      <h1 className={styles.hoverTitle}> </h1>
-  <Link href=''>
-      <button className={styles.more}>Details</button>
-  </Link>
+      {/* <div className={styles.hover}></div> */}
+      {/* <h1 className={styles.hoverTitle}> </h1> */}
+      <Link href=''>
+          <button className={styles.more}>DETAILS</button>
+      </Link>
     </section>
 
-    
-
-
-
-
+    <section  className={styles.imageContainer}>
+      <img
+        // onMouseEnter={mouseHandler}
+        className={styles.image}
+        src="/images/a10.jpg"
+        alt="img"
+      />
+      {/* <div className={styles.hover}></div> */}
+      {/* <h1 className={styles.hoverTitle}> </h1> */}
+      <Link href=''>
+          <button className={styles.more}>DETAILS</button>
+      </Link>
+    </section>
 
 
 
