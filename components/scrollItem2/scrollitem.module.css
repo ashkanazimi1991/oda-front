@@ -98,19 +98,20 @@
     position: relative;
     justify-items: center;
     justify-content: center;
-    top: 25%;
-    right: 20%;
-    padding: 35px;
-
+    top: 9%;
+    right: 8%;
+    padding-top: 180px;
+    padding-bottom:180px;
+    padding-left: 160px;
+    padding-right:160px;
     font-weight: bolder;
-  
     font-size: 26px;
     color: #fff;
     transition: all 1.5s;
     background: #44403ce5;
     border: none;
     opacity: 0;
-    padding: 75px;
+    /* padding: 85px; */
     z-index: 1;
     visibility: hidden;
    transition: all 0.8s;
@@ -122,9 +123,13 @@
 
 @media screen and (max-width:490px) {
     .more{
-        top: 25%;
-        right: 20%;
-        padding: 35px;
+        top: 12%;
+        right: 10%;
+        /* padding: 55px; */
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 50px;
+        padding-right: 50px;
         font-size: 16px;
         
 }

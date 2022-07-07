@@ -11,12 +11,12 @@ const header = () => {
 
                 <Link href="/" >
                     <img className='w-12   z-20 object-left-top' 
-                    src="./images/6.svg" alt="ODA"/>
+                    src="./images/logogreen.png" alt="ODA"/>
                 </Link>
 
               </div>
               <div className='  '>
-                    <h1 className='text-[#fff] h-18 text-xs pt-10 tracking-wide  font-light  ' >
+                    <h1 className='text-[#60724b] font-bold h-18 text-xs pt-10 tracking-wide   ' >
                       ODA OFFICE OF ARCHITECTUER 
                     </h1>
                     {/* <h2 className='text-white  text-xs underline font-thin drop-shadow-lg shadow-black'>

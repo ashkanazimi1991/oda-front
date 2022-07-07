@@ -6,13 +6,16 @@
 @font-face {
   font-family: "ARIBLK";
   src: url("/fonts/ARIBLK.ttf");
+  font-family: iransans;
+  src: url("/fonts/iransans");
+
 }
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: iransans;
+  /* font-family: iransans; */
 }
 
 a {
