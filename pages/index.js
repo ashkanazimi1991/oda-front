@@ -1,7 +1,7 @@
 // import ScrollItem from '../components/ScrollItems/ScrollItem';
 import Slider from '../components/Slider/Slider'
 import Head from 'next/head';
-import threeD from '../components/ThreeD/ThreeD';
+
 // import {useState} from 'react';
 // import InfoSection from '/../components/InfoSection/InfoSection';
 // import {homeObjectOne, homeObjectThree, homeObjectTwo } from '../components/InfoSection/Data';
