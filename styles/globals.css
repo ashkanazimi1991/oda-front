@@ -4,8 +4,13 @@
 
 
 @font-face {
-  font-family: "ARIBLK";
+
+  font-family: "arial";
+  src: url("/fonts/arial.ttf");
+
+  font-family: "arialK";
   src: url("/fonts/ARIBLK.ttf");
+
   font-family: iransans;
   src: url("/fonts/iransans");
 

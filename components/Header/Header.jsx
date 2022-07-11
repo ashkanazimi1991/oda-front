@@ -6,17 +6,17 @@ const header = () => {
     <div>
         <logo>
 
-            <div className=' top-0 h-19 flex flex-row md:hidden items-center fixed  w-full bg-[#000000f3] z-50'>
+            <div className=' top-0 h-18 flex p-2 flex-row md:hidden items-center fixed  w-full bg-[#000000e3] z-50'>
               <div>
 
                 <Link href="/" >
-                    <img className='w-12   z-20 object-left-top' 
-                    src="./images/logogreen.png" alt="ODA"/>
+                    <img className='w-14 h-14   z-20 object-left-top' 
+                    src="./images/logof.svg" alt="ODA"/>
                 </Link>
 
               </div>
               <div className='  '>
-                    <h1 className='text-[#60724b] font-bold h-18 text-xs pt-10 tracking-wide   ' >
+                    <h1 className='text-[#fff]  h-18 text-xs ml-2  font-[arial] tracking-wide   ' >
                       ODA OFFICE OF ARCHITECTUER 
                     </h1>
                     {/* <h2 className='text-white  text-xs underline font-thin drop-shadow-lg shadow-black'>

@@ -1,9 +1,11 @@
 import React from 'react'
 import Link from "next/link"
+import { useRouter } from 'next/router';
 
 // import { FaBeer } from "react-icons/fa";
 
 function Sidebar() {
+    const router = useRouter();
   return (
 
     <div >
@@ -18,18 +20,22 @@ function Sidebar() {
                 <ul className="list-reset flex flex-row md:flex-col z-20 text-center md:text-center">
                         <Link href='/'>
                             <li className="mr-3 flex-1  ">
-                                <a  className="block py-1 md:py-3   pl-1 align-middle text-[#fff]  hover:text-[#60724b] hover:bg-[#60724b] hover:shadow-[#60724b3a] no-underline  border-b-2 border-[#94A3B8] md:border-[#94A3B8] hover:border-[#60724b00]">
+                                <a  className="block py-1 md:py-3   pl-1 align-middle text-[#fff]  hover:text-[#60724b] hover:bg-[#60724b]   hover:shadow-[#60724b3a] no-underline  border-b-2 border-[#94A3B8] md:border-[#94A3B8] hover:border-[#60724b00]">
                                 <i className="pr-0 md:pr-3"></i>
-                                    <span className="pb-1 md:pb-0 text-xs md:text-base text-[#94A3B8] hover:text-[#fff] md:text-[#fff] block md:inline-block font-[arial]  tracking-wide  "> Home</span>
+                                    <span className="pb-1 md:pb-0 text-xs md:text-base text-[#94A3B8] hover:text-[#fff]  md:text-[#fff]
+                                     block md:inline-block font-[arial]  tracking-wide  "> Home</span>
                                 </a>
                             </li>
                         </Link>
 
                         <Link href='/projects'>
                             <li className="mr-3 flex-1">
-                                    <a  className="block py-1 md:py-3   pl-1 align-middle text-[#fff]  hover:text-[#60724b] hover:bg-[#60724b] no-underline  border-b-2 border-[#94A3B8] md:border-[#94A3B8] hover:border-[#60724b00]">
+                                    <a  className="block py-1 md:py-3   pl-1 align-middle text-[#fff]  hover:text-[#60724b] 
+                                    hover:bg-[#60724b] no-underline  border-b-2 border-[#94A3B8] md:border-[#94A3B8] 
+                                    hover:border-[#60724b00]">
                                     <i className="pr-0 md:pr-3"></i>
-                                    <span className="pb-1 md:pb-0 text-xs md:text-base text-[#94A3B8] hover:text-[#fff] md:text-[#fff] block md:inline-block tracking-wide font-[arial]">Projects</span>
+                                    <span className="pb-1 md:pb-0 text-xs md:text-base text-[#94A3B8] hover:text-[#fff]
+                                     md:text-[#fff] block md:inline-block tracking-wide font-[arial]">Projects</span>
                                 </a>
                             </li>
                         </Link>

@@ -23,7 +23,7 @@ class React360Viewer extends Component {
         this.centerY = 0
         this.movementStart = 0
         this.movement = false
-        this.speedFactor = 13
+        this.speedFactor = 20
         this.activeImage = 1
         this.stopAtEdges = false
 
@@ -48,7 +48,7 @@ class React360Viewer extends Component {
             viewPortElementWidth: null,
             movementStart: 0,
             movement: false,
-            dragSpeed: 150,
+            dragSpeed: 100,
             speedFactor: 13,
             activeImage: 1,
             stopAtEdges: false,
