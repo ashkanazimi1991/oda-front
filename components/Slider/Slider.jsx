@@ -6,9 +6,9 @@ import "react-slideshow-image/dist/styles.css";
     const Slider = () => {
         //Array of Images
         const images = [
-            "images/666555.jpg",
-            "images/666555.jpg",
-            // "images/555666.jpg",
+            // "images/888.jpg",
+            "images/555.jpg",
+            "images/44.jpg",
            
         ];
     
@@ -16,7 +16,7 @@ import "react-slideshow-image/dist/styles.css";
         const zoomInProperties = {
             indicators: false,
             scale: 1.2,
-            duration: 10000,
+            duration: 5000,
             arrows: false,
             transitionDuration: 500,
             infinite: true,
@@ -27,7 +27,7 @@ import "react-slideshow-image/dist/styles.css";
 
   return (
     
-     <div className="w-full">
+     <div className="w-full pt-20 md:pt-0 bg-black">
 				<Zoom {...zoomInProperties}>
           {images.map((each, index) => (
             <div key={index} className="flex justify-center pt-63 bg-[#000] max-h-screen">

@@ -1,11 +1,8 @@
 // import ScrollItem from '../components/ScrollItems/ScrollItem';
 import Slider from '../components/Slider/Slider'
 import Head from 'next/head';
-
-// import {useState} from 'react';
-// import InfoSection from '/../components/InfoSection/InfoSection';
-// import {homeObjectOne, homeObjectThree, homeObjectTwo } from '../components/InfoSection/Data';
 import React360Viewer from '../components/React360Viewer';
+import Info from '../components/Info/Info';
 
 
 
@@ -29,7 +26,8 @@ export default function Home() {
 
   
   <Slider/>
-    <div className="bg-[#000] w-screen">
+  <Info/>
+    <div className="bg-[#000000da] w-full md:pl-[20%] ">
                                       <React360Viewer 
                                           amount={36}
                                           i={1}
@@ -40,10 +38,6 @@ export default function Home() {
                                           />
     </div>
                                   
-  {/* <ScrollItem  /> */}
-  {/* <InfoSection {...homeObjectTwo} /> */}
-  {/* <InfoSection {...homeObjectOne} /> */}
-  {/* <InfoSection {...homeObjectThree} /> */}
 
 
 </div>

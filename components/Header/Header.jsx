@@ -6,7 +6,7 @@ const header = () => {
     <div>
         <logo>
 
-            <div className=' top-0 h-18 flex p-2 flex-row md:hidden items-center fixed  w-full bg-[#000000e3] z-50'>
+            <div className=' top-0 h-18 flex p-2 flex-row md:hidden items-center fixed  w-full bg-[#000000cc] z-50'>
               <div>
 
                 <Link href="/" >

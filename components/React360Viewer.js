@@ -32,7 +32,7 @@ class React360Viewer extends Component {
             lastY: 0,
             minScale: 1,
             maxScale: 1,
-            scale: 0.2,
+            scale: 1,
             customOffset: 10,
             currentScale: 1,
             currentTopPosition: 0,

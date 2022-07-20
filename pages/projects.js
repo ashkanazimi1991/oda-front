@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
-import ScrollItem2 from '../components/scrollItem2/ScrollItem2'
+import Gallery from '../components/Gallery/Gallery';
+// import ScrollItem2 from '../components/scrollItem2/ScrollItem2'
 
 const Projects = () => {
     return (
@@ -13,8 +14,9 @@ const Projects = () => {
                 <meta name="theme-color" content="#000"/>
                 <link rel='manifest' href='/manifest.json' />
          </Head>
+            <Gallery/>
 	
-            <ScrollItem2/>
+            {/* <ScrollItem2/> */}
         </div>
     );
 }
